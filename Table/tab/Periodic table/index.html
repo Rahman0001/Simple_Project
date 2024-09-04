@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            margin: 20px 35px;
+            padding: 10px;
+            border: 0.5px solid black;
+            border-radius: 5px;
+        }
+        .element{
+           background-color: palevioletred;
+        }
+        .element:hover{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modern Periodic Table </h1>
+    <section class="mainBody"></section>
+     <script>
+        // const createPeriodicElement =(symbol,atomicNumber,name)=>{
+        //     const element=document.createElement("div");
+        //     element.classList.add("element");
+        //     element.innerHTML=symbol;
+
+        //     element.setAttribute("data-atomic-number",atomicNumber);
+        //     element.setAttribute("data-element-name",name);
+
+        //     return element;
+        // };
+        // const handleElementClick=(event)=>{
+        //       const target=event.target;
+        //       if(target.classList.contains("element")){
+        //         const atomicNumber=target.getAttribute("data-atomic-number");
+        //         const elementName=target.getAttribute("data-element-name");
+        //         alert(`Atomic Number:${atomicNumber}\n Element Name:${elementName}`);
+        //       }
+        // };
+        // function initializePeriodicTable(){
+        //    const mainBody=document.querySelector(".mainBody");
+        //    for(let i=1;i<=50;i++){
+        //     const element=createPeriodicElement(`Elem ${i}`,i,`Element ${i}`);
+        //     mainBody.append(element);
+        //    }
+        //    mainBody.addEventListener("click",handleElementClick)
+        // };
+        
+        // initializePeriodicTable();
+       const createPeriodicElement=(Symbol,atomicnumber,name)=>{
+          const element=document.createElement("div");
+          element.classList.add("element");
+          element.innerHTML=Symbol;
+
+          element.setAttribute("data-atomicnumber",atomicnumber);
+          element.setAttribute("data-element-name",name);
+
+          return element;
+       }
+
+       const handleEvent=(event)=>{
+        const target=event.target;
+        if(target.classList.contains("element")){
+            const atomicNumber=target.getAttribute("data-atomicnumber");
+            const elementName=target.getAttribute("data-element-name");
+            alert(`Atomic Number:${atomicNumber}\n Element Name: ${elementName}`)
+        }
+
+       }
+    
+        function initializePeriodicTable(){
+            const mainBody=document.querySelector(".mainBody");
+            for(let i=1;i<=50;i++){
+                const element=createPeriodicElement(`Elem ${i}`,i,`Element ${i}`);
+                mainBody.append(element);
+            }
+            mainBody.addEventListener("click",handleEvent)
+        };
+        initializePeriodicTable();
+     </script>
+</body>
+</html>
