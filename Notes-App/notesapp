@@ -1,0 +1,8 @@
+This notes app allows users to create, edit, and delete notes directly within a web page. The notes are stored locally in the browser using localStorage, ensuring they persist even after the page is refreshed.
+
+Key Features:
+Create Notes: Users can create new notes by clicking a button. Each note is represented by an editable text area (<p> element) and includes a delete icon (<img> element).
+Edit Notes: Notes are fully editable in place, thanks to the contenteditable attribute. Any changes made to the notes are automatically saved to localStorage.
+Delete Notes: Notes can be deleted by clicking the delete icon associated with each note. This action also updates the stored data in localStorage.
+Persistent Storage: The app retrieves notes from localStorage on page load, ensuring that previously created notes are available whenever the app is accessed.
+Overall, this notes app provides a simple, user-friendly interface for managing notes with automatic saving and persistence.
