@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.cointainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/bg-Img.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%
+} 
+
+.logo{
+    width: 200px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content{
+    top: 40%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.cointainer h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.content h1 span{
+    color: #FB332A;
+}
+.content button{
+    background:  #FB332A;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 28px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.cointainer p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60%;
+}
+
+.launch-time{
+    display: flex;
+   /* margin-top: -10px; */
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+
+}
+
+.rocket{
+    width:250px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    animation: Rocket 4s linear infinite;
+    -webkit-animation: Rocket 4s linear infinite;
+}
+
+@keyframes Rocket {
+    0%{
+      bottom: 0.6;
+      opacity: 0;
+    }
+
+    100%{
+        bottom: 105%;
+        opacity: 2;
+    }
+}
+
