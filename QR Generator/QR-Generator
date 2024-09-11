@@ -1,0 +1,7 @@
+This QR Code Generator app is a simple web-based tool that allows users to generate QR codes from a given text or URL input. The application is designed with a user-friendly interface where users can input a URL or any text they want to encode. Upon clicking the "Generate" button, the app dynamically generates a QR code, which is then displayed above the button for easy access and use.
+
+Key Features:
+User Input: Accepts any text or URL from the user to generate a corresponding QR code.
+Real-Time QR Code Generation: Utilizes an external API to generate the QR code instantly based on the user input.
+Image Display: Displays the generated QR code image directly on the webpage, allowing users to easily scan or download it.
+This app provides a quick and efficient way to convert text or URLs into QR codes, making it useful for sharing links, text, or other data in a scannable format.
