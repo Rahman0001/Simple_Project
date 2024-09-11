@@ -1,0 +1,12 @@
+Project Summary: "Coming Soon" Page
+This project is a "Coming Soon" webpage that informs visitors that the website is currently under maintenance and will be launching soon. The page includes a countdown timer to indicate the remaining time until the launch date.
+
+Key Features:
+Visual Design: The page features a minimalist design with a logo at the top, a launch message, and a countdown timer. It also includes a rocket image to emphasize the theme of an upcoming launch.
+Countdown Timer: The page includes a dynamic countdown timer that displays the number of days, hours, minutes, and seconds remaining until the specified launch date.
+Interactive Button: A "Learn More" button is provided, presumably for additional information or to direct visitors to other relevant content.
+
+How It Works:
+HTML Structure: The page is structured with a container that holds the logo, main content, and rocket image. The content includes a message and a countdown timer displayed in separate div elements.
+Countdown Timer: The JavaScript code calculates the remaining time until the specified launch date (December 31, 2024, in this case) and updates the countdown timer every second. It computes the time difference between the current time and the launch date, then breaks it down into days, hours, minutes, and seconds, which are displayed on the page.
+This webpage serves as a placeholder to inform users about the upcoming launch of the website while providing a visual countdown to build anticipation.
