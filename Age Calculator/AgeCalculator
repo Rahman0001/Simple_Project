@@ -1,0 +1,8 @@
+This project is a simple age calculator that allows users to input their birthdate and calculate their age in years, months, and days. The project involves an HTML date input field and a button to trigger the calculation. The age is calculated based on the difference between the user's birthdate and the current date, taking into account the number of days in each month to ensure accuracy.
+
+Key Features:
+Date Input Validation: Ensures that the user cannot select a future date by setting the maximum allowable date to today.
+Dynamic Age Calculation: Calculates the user's age whenever the button is clicked, updating the result based on the most recent input.
+Error Handling: Checks for invalid date inputs and prevents incorrect calculations.
+Console Output: Logs the type and value of the calculated days difference (d3) to help with debugging and ensure correct functionality.
+The project is designed to be a straightforward and educational exercise in handling dates, user input, and event-driven programming in JavaScript.
