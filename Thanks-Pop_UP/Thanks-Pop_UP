@@ -1,0 +1,17 @@
+This project is a simple "Thank You" popup system for a webpage. It consists of:
+
+Purpose: To display a confirmation message when a user submits a form or completes an action, such as clicking a "Submit" button.
+
+Functionality:
+
+When the user clicks the "Submit" button, a popup window appears with a message thanking the user and confirming that their details have been successfully submitted.
+The popup includes an image, a "Thank You" heading, a success message, and an "OK" button.
+The user can close the popup by clicking the "OK" button.
+Technology Stack:
+
+HTML: Structures the page and the popup content.
+CSS: Styles the layout, buttons, and popup, making it visually appealing and centered on the screen.
+JavaScript: Controls the opening and closing of the popup through event listeners attached to the buttons.
+User Experience: The design is clean and simple, with smooth transitions for the popup to enhance interactivity, providing users with a positive and visually engaging confirmation after submission.
+
+This project demonstrates how to create interactive web features using fundamental web technologies.
